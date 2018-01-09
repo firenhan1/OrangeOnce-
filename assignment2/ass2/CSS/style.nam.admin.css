@@ -1,0 +1,214 @@
+
+    body {font-family: Arial;}
+table, th, td {
+    border: 1px solid #CFCFCF;
+}
+.addbutton{ 
+    padding-top:15px;    
+    padding-bottom:20px;
+}
+.log-out{
+    padding-top:30px;
+    padding-left:100px;
+}
+
+/*-----------------------------------------delete------------------------------------------------*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 50px;
+    border: 1px solid #888;
+    width: 35%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*-----------------------------------------------------------------------------------------*/
+/*-----------------------------------------edit member-------------------------------------------------*/
+.modal-edit {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content-edit {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 60px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+/* The Close Button */
+.close-edit {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-edit:hover,
+.close-edit:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*-----------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------*/
+/*-----------------------------------------edit-product------------------------------------------------*/
+.modal-edit-product {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content-edit-product {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 60px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+/* The Close Button */
+.close-edit-product {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-edit-product:hover,
+.close-edit-product:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*-----------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------*/
+/*-----------------------------------------add-member------------------------------------------------*/
+.modal-add-member {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content-add-member {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 60px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+/* The Close Button */
+.close-add-member {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-add-member:hover,
+.close-add-member:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*-----------------------------------------add-product------------------------------------------------*/
+.modal-add-product {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content-add-product {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 60px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+/* The Close Button */
+.close-add-product {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-add-product:hover,
+.close-add-product:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*-----------------------------------------------------------------------------------------*/
+.answer{
+    text-align:center;
+}

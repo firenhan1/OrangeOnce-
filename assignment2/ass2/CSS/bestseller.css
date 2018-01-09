@@ -1,0 +1,227 @@
+
+
+
+/*---------------------------------------------------CONTENT------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------------------------------*/
+.main-tab {
+        overflow: hidden;
+}
+
+/*---------------------------------------------------Header------------------------------------------------------------------*/
+
+.title-tab h1{
+       margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------------------ITEM    -------------------------------------------------------------
+------------------------------------------------------------------------------------------------*/
+/*style.css*/
+
+/*---------------------------------------------------Big Item------------------------------------------------------------------*/
+.main-tab .tab-part2 .container-tab-part2 .oo-showItem .image img{
+   max-width: 100%;
+    vertical-align: top;
+    min-height: 100px;
+}
+.main-tab .tab-part2 .oo-miniItem .miniItem {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+    overflow: hidden;
+    background-color: #FFF;
+
+}
+
+.container-tab-part2 {
+    border: solid 1px #D8D8D8;
+    margin: 10px 0px;
+
+    
+}
+.oo-miniItem .miniItem ul li:first-child{
+     margin-left: 15%;
+
+}
+.oo-miniItem .miniItem ul li{
+     width: 20%;
+    height: 20%;
+    float: left;
+     display: inline-block;
+
+}
+.oo-miniItem .miniItem ul li a img {
+      
+    float: left;      
+}
+.oo-miniItem .miniItem  ul li a {
+    padding: 5px 5px;
+    margin: 5px;
+    background-color: white;
+ 
+   
+    -webkit-transition: width 0.3s, height 0.3s;
+    transition: width 0.3s, height 0.3s;
+}
+
+.oo-miniItem .miniItem  ul li.active{
+    border-bottom: solid 3px #FF5C00;
+}
+
+.oo-miniItem .miniItem ul li:hover:not(.active) {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+/*-------------------------------------------------*/
+.oo-infoItem figcaption {
+    padding: 15px 20px 5px;
+}
+
+.oo-infoItem h3,
+.oo-infoItem p {
+    margin: 0;
+    text-align: left;
+}
+
+.oo-infoItem h3 {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.oo-infoItem p {
+    margin-bottom: 15px;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+.oo-infoItem .price {
+    font-size: 1.3em;
+
+    font-weight: 700;
+    text-align: right;
+}
+
+.oo-infoItem .price .off-sale {
+    padding-top: 10px;
+    float: left;
+    overflow: hidden;
+    color: red;
+}
+
+.oo-buyItem .add-to-cart {
+    width: 150px;
+    height: 50px;
+    display: inline-block;  
+    position: relative;
+    bottom: 20px;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    font-size: 0.8em;
+    color: #ffffff;
+    line-height: 46px;
+    letter-spacing: 1.5px;
+    background-color: #ff5c00;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.oo-buyItem .add-to-cart:hover {
+    background: #cc4a00;
+    color: #ffffff;
+}
+/*--------------------------------------------*/
+.oo-buyItem{
+    padding-bottom: 60px;
+    text-align: center;
+    
+}
+.oo-showItem {
+    padding-bottom: 10px;
+}
+.oo-infoItem{
+    padding-top: 10px;
+}
+
+/*----------------------------------label--------------------------------------------*/
+.green {
+  background-color: #59B210;
+  color: #fff;
+}
+.green.ribbon {
+  background-color: transparent;
+}
+.green.ribbon:after {
+  border-top-color: #59B210;
+}
+.red {
+  background-color: #F8484A;
+  color: #fff;
+}
+.red.ribbon {
+  background-color: transparent;
+}
+.red.ribbon:after {
+  border-top-color: #F8484A;
+}
+.blue {
+  background-color: #407AC5;
+  color: #fff;
+}
+.blue.ribbon {
+  background-color: transparent;
+}
+.blue.ribbon:after {
+  border-top-color: #407AC5;
+}
+
+.ribbon {
+  z-index: 100;
+  top: 2.5%;
+  font-size: 11px;
+  line-height: 20px;
+  padding: 4px 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.ribbon:nth-child(2) {
+  margin-top: 30px;
+}
+.ribbon:nth-child(3) {
+  margin-top: 60px;
+}
+.ribbon:nth-child(4) {
+  margin-top: 90px;
+}
+.ribbon span {
+  position: relative;
+  z-index: 100;
+  margin-right: 11px;
+}
+.ribbon:after {
+  content: "";
+  display: inline-block;
+  border-top-width: 28px;
+  border-top-style: solid;
+  border-left: 0px;
+  border-right: 14px solid transparent;
+  height: 0;
+  min-width: 68px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+figure.product-card .labels .ribbon {
+    position: absolute;
+}
+

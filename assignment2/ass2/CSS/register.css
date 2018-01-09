@@ -1,0 +1,87 @@
+.section-sign-in{
+  margin: 30px 0;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+.section-register{
+  margin: 30px 0;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+.bordered{
+  border-bottom: 1px solid #ececec;
+  margin-bottom: 12px;
+  padding-bottom: 20px;
+
+}
+p{
+  margin: 0 0 10px;
+  color: #747474;
+  font-size: 16px;
+  line-height: 28px;
+  padding-bottom: 20px;
+}
+.btn-facebook{
+  background-color: #3d5c98;
+  color: #fff;
+  font-size: 14px;
+  line-height: 28px;
+}
+.btn-google{
+  background-color: #ff1a1a;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 28px;
+}
+.social-auth-buttons{
+  padding-bottom: 25px;
+}
+.field-row{
+  font-size: 15px;
+  color: #5d5d5d;
+  margin-bottom:25px;
+}
+.le-input{
+  background-color: #f6f6f6;
+  border-radius: 0;
+  padding: 9px;
+  width: 100%;
+  border:none;
+}
+.login-form{
+  padding-bottom: 20px;
+}
+.clearfix {
+  font-size: 15px;
+  color: #5d5d5d;
+  margin-bottom:30px;
+}
+.button {
+    background-color: #ff5c00; /* Green */
+    border: none;
+    border-radius:5px;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button1:hover {
+    background-color: #ff5c00;
+    color: white;
+}
+.semi-bold{
+  color: #434343;
+  font-size: 28px;
+  line-height: 36px;
+  padding-bottom: 14px;
+  margin-bottom: 12px;
+
+}
